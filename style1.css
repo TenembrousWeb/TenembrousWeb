@@ -1,0 +1,29 @@
+.title{
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1{
+	color: white;
+	font-size: 55px;
+	font-family: monospace;
+}
+.button{
+	position: absolute;
+	top: 54%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.button{
+	border: 2px solid #fff;
+	padding: 5px 20px;
+	font: #fff;
+	transition: 0.5 ease;
+	font-size: 18px;
+	text-decoration: none;
+}
+.button:hover{
+	background-color: red;
+	color: black;
+}
